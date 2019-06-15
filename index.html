@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js" defer></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Stock Snatcher</h1>
+    <div class="row">
+        <div class="column"">
+            <h2>Instructions:</h2>
+            <h3>Enter into the textbox a name of a company</h3>
+            <h3>For example: Apple, Spotify, Microsoft, Snap, Uber</h3>
+            <h3>Then hit Submit!</h3>
+            <input type="text" placeholder="Enter Company's name here (Apple, Microsoft,...)" size="54" id="companyName">
+            <input type="submit" id="submitButton" value="Submit">
+            <br>
+            <div id="stock_data"></div>
+            <br>
+            <img id="logo">
+            <br>
+            <br>
+            <img id="meme">
+        </div>
+        <div class="column">
+            <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="news_data"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
